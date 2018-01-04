@@ -4,7 +4,7 @@ Coin Price - Cryptocurrency Price Ticker
 
 <p align=center>
 <a target="_blank" href="http://docs.guzzlephp.org/en/stable/" title="Guzzle"><img src="https://img.shields.io/badge/PHP-Guzzle-green.svg"></a>
-<a target="_blank" href="https://github.com/mskian/coinprice/blob/master/LICENSE" title="License: GPL"><img src="https://img.shields.io/badge/License-GPL-blue.svg"></a>
+<a target="_blank" href="https://github.com/mskian/coinprice/blob/master/LICENSE" title="License: GPL"><img src="https://img.shields.io/badge/License-MIT-yellowgreen.svg"></a>
 </p>  
 
 > 💰 Cryptocurrency price ticker Price Table.
@@ -39,4 +39,6 @@ Just Fork this respo & Send Pull Request
 we are using the [coinmarketcap.com](https://coinmarketcap.com/api/) for fetch the Cryptocurrency Price Ticker.
 
 
+### License
 
+MIT
