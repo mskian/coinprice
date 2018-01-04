@@ -1,4 +1,4 @@
-# Coinprice
+# Coin price
 
 Coin Price - Cryptocurrency Price Ticker - Get the Top 100 Coins Price Ticker
 
@@ -17,7 +17,7 @@ Thanks to [coinmarketcap.com](https://coinmarketcap.com/) For Providing the PUBL
 
 - Just download or Clone this respo
 - No Need to Modify the Files
-- Just Upload and use it
+- Just Upload it and use
 
 
 ### Requirments
@@ -42,3 +42,4 @@ we are using the [coinmarketcap.com](https://coinmarketcap.com/api/) for fetch t
 ### License
 
 MIT
+
