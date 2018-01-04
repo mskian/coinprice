@@ -199,7 +199,7 @@ table .btn {
 <script type="text/javascript">
 
 $(document).ready(function (){
-   $('#pricetable').dataTable( {
+    var table = $('#pricetable').DataTable( {
      "ajax": {
          "url": "api/getall.php",
          "dataSrc": "prices",
@@ -238,6 +238,9 @@ $(document).ready(function (){
          { "data": "percent_change_7d" }
      ]
    });
+   setInterval(function () {
+      table.ajax.reload();
+  }, 120000);
 });
 
 </script>
