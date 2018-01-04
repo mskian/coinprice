@@ -46,7 +46,7 @@ Just Fork this respo & Send Pull Request
 - Top 100 Lists - `api/getall.php`
 - Prices in INR - `api/inrr.php`
 
-we are using the [coinmarketcap.com](https://coinmarketcap.com/api/) for fetch the Cryptocurrency Price Ticker.
+we are using the [coinmarketcap.com](https://coinmarketcap.com/api/) API for fetch the Cryptocurrency Price Ticker.
 
 
 ### License
