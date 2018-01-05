@@ -9,11 +9,9 @@ Real-time Cryptocurrency Price Ticker 🔥
 <a target="_blank" href="https://github.com/mskian/coinprice/blob/master/LICENSE" title="License: GPL"><img src="https://img.shields.io/badge/License-MIT-yellowgreen.svg"></a>
 </p>  
 
-<p align=center>
 
 > 💰 Cryptocurrency price ticker Price Table.
 
-</p>
 
 
 <p align=center>
