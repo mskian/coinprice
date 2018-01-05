@@ -5,8 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Cryptocurrency price Ticker</title>
-<meta name="description" content="CoinPrice - Online Cryptocurrency price Ticker Table."/>
+<title>Cryptocurrency price Ticker in INR</title>
+<meta name="description" content="Coin Price - Online Cryptocurrency price Ticker Table."/>
+<link rel="shortcut icon" href="favicon.png" type="image/png" />
+<?php $current_page = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+ echo '<link rel="canonical" href="'.$current_page.'" />'; ?>
+
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -168,8 +172,8 @@ table .btn {
 <div class="container">
 <div class="row">     
 <div class="col-lg-12"> 
-
 <div class="table-responsive">  
+
 <table id="pricetable" class="table table-striped table-bordered">
 <thead>
 <tr>
@@ -180,17 +184,18 @@ table .btn {
 </tr>
 </thead>
 </table>
-</div>
 
 </div>
 </div>
-<div>
+</div>
+</div>
+
 <br />
 <br />
 
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/kt-2.3.2/r-2.2.1/datatables.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.10.16/kt-2.3.2/r-2.2.1/datatables.min.js"></script>
 
-<script type="text/javascript">
+<script>
 
 $(document).ready(function (){
    $('#pricetable').dataTable( {
