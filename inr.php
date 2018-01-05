@@ -141,7 +141,6 @@ table .btn {
 
 </head>
 <body>
-<body>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse">
 <div class="navbar-header">
