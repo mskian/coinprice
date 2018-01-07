@@ -154,8 +154,8 @@ table .btn {
 </div>
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav navbar-right">
-<li class="nav-home nav-current"><a href="index.php">Home</a></li>
-<li class="nav-bash"><a href="inr.php">Price (INR)</a></li>
+<li><a href="index.php">Home</a></li>
+<li><a href="inr.php">Price (INR)</a></li>
 </ul>
 </div>
 <!-- /.container -->
