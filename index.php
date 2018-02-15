@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <title>Cryptocurrency price Ticker</title>
 <meta name="description" content="CoinPrice - Online Cryptocurrency price Ticker Table."/>
@@ -12,55 +12,25 @@
  echo '<link rel="canonical" href="'.$current_page.'" />'; ?>
 
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/kt-2.3.2/r-2.2.1/datatables.min.css"/>
 
 <style>
 body {
     background-color: #ffffff;   
-    font-family: 'Poppins', sans-serif;
+    font-family:'Exo 2',sans-serif;
     font-size: 16px;
 }
-.navbar{
-    background-color:#1976d2;
-    border: 0;
-    margin: 0;
-    padding:5px 0 5px 0;
-}
-.navbar a:hover{
-    opacity: 1;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: #eeeeee;
-}
-.navbar-brand {
-    font-weight: 800;
-    font-style: italic;
-    color: #eeeeee;
-}
-.navbar-inverse .navbar-brand {
-    color: #eeeeee;
-}
-@media (max-width:767px) {
-
-    .navbar-form {
-        margin-top: 0;
-        border: none;
-    }
-
-    .navbar-inverse .navbar-collapse,
-    .navbar-inverse .navbar-form {
-        border-color: #eeeeee;
-        box-shadow: none;
-        border-bottom: none;
-    }
-
-}
 .navbar {
-    min-height: 60px;
+    background-color:#1976d2;
 }
+.navbar-nav > li{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 .table-striped {
     border: 0
 }
@@ -141,25 +111,23 @@ table .btn {
 
 </head>
 <body>
+
 <!-- Navigation -->
-<nav class="navbar navbar-inverse">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<a class="navbar-brand" href="/">
+Coin Price                
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
 </button>
-<a class="navbar-brand" href="index.php">Coin Price</a>
-</div>
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav navbar-right">
-<li><a href="index.php">Home</a></li>
-<li><a href="inr.php">Price (INR)</a></li>
+<div class="collapse navbar-collapse" id="navbarText">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+<li class="nav-item active"><a class="nav-link" href="inr.php">Price (INR)</a></li>
 </ul>
 </div>
-<!-- /.container -->
 </nav>
+    
 <br />
 <br />
 
@@ -250,7 +218,7 @@ $(document).ready(function (){
 
 </script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
