@@ -122,7 +122,7 @@ Coin Price
 <br />
 
 <div class="container">
-<div class="page-header text-center">
+<div class="text-center">
 <h2 class="hello-head">Cryptocurrency price Ticker</h2>
 </div>
 </div>
