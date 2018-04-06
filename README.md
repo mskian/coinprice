@@ -4,10 +4,10 @@ Coin Price - Cryptocurrency Price Ticker - Get the Top 100 Coins Price Ticker
 
 Real-time Cryptocurrency Price Ticker 🔥
 
-<p align=center>
+<p>
 <a target="_blank" href="http://docs.guzzlephp.org/en/stable/" title="Guzzle"><img src="https://img.shields.io/badge/PHP-Guzzle-green.svg"></a>
 <a target="_blank" href="https://github.com/mskian/coinprice/blob/master/LICENSE" title="License: GPL"><img src="https://img.shields.io/badge/License-MIT-yellowgreen.svg"></a>
-</p>  
+</p>
 
 
 > 💰 Cryptocurrency price ticker Price Table.
