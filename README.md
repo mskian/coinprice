@@ -18,11 +18,6 @@ Real-time Cryptocurrency Price Ticker 🔥
 <img src="https://raw.githubusercontent.com/mskian/coinprice/master/coin-price-demopic1.png">
 </p>
 
-<p align=center>
-<img src="https://raw.githubusercontent.com/mskian/coinprice/master/coin-price-demopic2.png">
-</p>
-
-
 ### Credits
 
 Thanks to [coinmarketcap.com](https://coinmarketcap.com/) For Providing the PUBLIC API 💯
@@ -44,9 +39,8 @@ Thanks to [coinmarketcap.com](https://coinmarketcap.com/) For Providing the PUBL
 ### API
 
 - Top 100 Lists - `api/getall.php`
-- Prices in INR - `api/inrr.php`
 
-we are using [coinmarketcap.com](https://coinmarketcap.com/api/) API for fetch the Cryptocurrency Price Ticker.
+we are using coinmarketcap.com API for fetch the Cryptocurrency Price Ticker.
 
 ### Real-time Price Ticker 🔥
 
@@ -65,18 +59,6 @@ Real-time Ticker using Datables Ajax reload API
 ### Contribution
 
 Just Fork this respo & Send Pull Request
-
-
-### Donate 
-
-If you like My work donate some bitcoins 💖 it will Boost me 😊 to develop more open source Projects.
-
-```
-
-BTC - 3MhgjsPaDkMukWhKkrJJuYdfmENmX7uYiQ
-
-```
-
 
 ### License
 
